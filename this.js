@@ -1,16 +1,10 @@
-function customers(bank){
-    return function AccountDetails(diposited,withdraw){
-       this.diposited=diposited;
-       this.withdraw=withdraw;
-       console.log(`${bank}`);
-    }
+var myVar = 100;
+function WhoIsThis() {
+    this.myVar = 200;
 }
-function calBalance(){
-     let balance=this.diposited-this.withdraw;
-    return balance;
-}
-
-let joey=new cus(3000,1000);
-let zayn=new cus(4000,1000);
-console.log(`joey's balance ${calBalance.call(joey)} `);
-console.log(`zayn's balance ${calBalance.call(zayn)}`);
+var obj1 = new WhoIsThis();
+var obj2 = new WhoIsThis();
+obj2.myVar = 300;
+console.log(this.myVar);
+console.log(obj1.myVar);
+console.log(obj2.myVar); 
