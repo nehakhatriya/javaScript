@@ -16,6 +16,7 @@ function Manager(name,surname){
 Object.setPrototypeOf(Manager.prototype,Employee.prototype)  //linking Manager prototype to employee prototype
 var emp1=new Employee("neha","khatriya");
 var emp2=new Employee("zayn","malik");
+//var mang1=Object.create(Employee.prototype);
 var mang1=new Manager("joey","tribiani");
 console.log(emp1.getName()+" "+ emp1.getsurname());
 console.log(emp2.getName()+" "+ emp2.getsurname());
