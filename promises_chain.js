@@ -27,3 +27,7 @@ cleanRoom().then(function(result){
 //Promise.all([cleanRoom(),removeGarbage(),iceCream()]).then(function(){
 //     console.log("all finished")
 // })
+
+//Promise.race([cleanRoom(),removeGarbage(),iceCream()]).then(function(){
+//     console.log("all finished")
+// })
