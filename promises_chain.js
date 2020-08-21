@@ -23,3 +23,7 @@ cleanRoom().then(function(result){
 }).then (function(result){
     console.log("finished"+result)
 })
+
+//Promise.all([cleanRoom(),removeGarbage(),iceCream()]).then(function(){
+//     console.log("all finished")
+// })
