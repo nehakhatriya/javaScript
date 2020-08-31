@@ -12,7 +12,7 @@ let removeGarbage=function(msg){
 
 let iceCream=function(msg){
   return new Promise(function(resolve,reject){
-      return resolve(msg +" can have ice cream ")
+     resolve(msg +" can have ice cream ")
   })
 }
 

@@ -13,10 +13,14 @@ function func1(){
         }, 3000);
     })
 }
-
-func1().then(function(){
+function fun2(){
+ return func1().then(function(){
     console.log("Thanks for resolving")
 }).catch(data=>{
-    console.log(data)
+    console.log(data);return data
+})
+}
+fun2().then((data)=>{
+    console.log("fun2 "+data)
 })
 console.log("Hello")

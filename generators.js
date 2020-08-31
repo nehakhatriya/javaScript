@@ -22,10 +22,10 @@ function *something(){
     yield nextval
  }
 }
-let it= something()
-console.log(it.next().value)
-console.log(it.next().value)
-console.log(it.next().value)
+// let it= something()
+// console.log(it.next().value)
+// console.log(it.next().value)
+// console.log(it.next().value)
 
 // for(let it of something()){
 //     console.log(it)
