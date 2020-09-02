@@ -1,0 +1,6 @@
+{"message":"linear Search for element 30 in array 10,neha,30,40 ","level":"info","timestamp":"2020-09-02 15:06:37"}
+{"message":"error occured. Array input must be integet.","level":"error","timestamp":"2020-09-02 15:06:37"}
+{"message":"linear Search for element 30 in array 10,20,30,40 ","level":"info","timestamp":"2020-09-02 15:06:37"}
+{"message":"element found at index 3","level":"info","timestamp":"2020-09-02 15:06:37"}
+{"message":"linear Search for element 30 in array 10,20,50,40 ","level":"info","timestamp":"2020-09-02 15:06:37"}
+{"message":"Element not found","level":"info","timestamp":"2020-09-02 15:06:37"}
