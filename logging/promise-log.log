@@ -1,0 +1,4 @@
+{"message":"calling fun2()","level":"info","timestamp":"2020-09-02 14:38:25"}
+{"message":"error has been occured","level":"info","timestamp":"2020-09-02 14:38:28"}
+{"message":"promise has been rejected","level":"info","timestamp":"2020-09-02 14:38:28"}
+{"message":"fun2 returned a promise with data: sorry not fullfilled","level":"info","timestamp":"2020-09-02 14:38:28"}
